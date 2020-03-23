@@ -1,7 +1,6 @@
-#-*- coding: utf- 8 -*-
-print u"введите число a:",
-a = int(raw_input())
-print u"введите число b:",
-b = int(raw_input())
+print ("введите число a:",)
+a = int(input())
+print ("введите число b:",)
+b = int(input())
 c = a + b
-print "%d + %d = %d" % (a, b, c)
+print ("%d + %d = %d" % (a, b, c))

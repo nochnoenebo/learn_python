@@ -1,9 +1,8 @@
-#-*- coding: utf- 8 -*-
-print u"Сколько на небе звезд?",
-star = raw_input()
-print u"Сколько во вселенной планет?",
-planet = raw_input()
-print u"Сколько на планете людей?",
-people = raw_input()
+print ("Сколько на небе звезд?",)
+star = input()
+print ("Сколько во вселенной планет?",)
+planet = input()
+print ("Сколько на планете людей?",)
+people = input()
 
-print u"Итак, в твоем мире на небе %s звезд, во вселенной %s планет и %s людей." % (star, planet, people)
+print ("Итак, в твоем мире на небе %s звезд, во вселенной %s планет и %s людей." % (star, planet, people))

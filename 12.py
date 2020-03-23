@@ -1,11 +1,5 @@
-#-*- coding: utf- 8 -*-
+age = int(input("Сколько тебе лет? "))
+height = int(input("Какой твой рост? "))
+weight = int(input("Сколько ты весишь? "))
 
-import codecs, sys
-outf = codecs.getwriter('cp866')(sys.stdout, errors='replase')
-sys.stdout = outf
-
-age = raw_input(u"Сколько тебе лет?")
-height = raw_input(u"Какой твой рост?")
-weight = raw_input(u"Сколько ты весишь?")
-
-print u"Итак, тебе %r лет, в тебе %r см роста и %r кг веса." % (age, height, weight)
+print ("Итак, тебе %d лет, в тебе %d см роста и %d кг веса." % (age, height, weight))
