@@ -16,7 +16,7 @@ i, j = (int(i) for i in input().split())
 #     matrix[i][j]= 1
 #     print(matrix)
 # else:
-#     print("fuck this shit.")
+#     print("возврат к вводу координат")
 if (abs(a - i) == 2 and abs(b - j) == 1) or (abs(a - i) == 1 and abs(b - j) == 2):
     print ("horse")
     matrix = [[0 for j in range(m)] for i in range(n)]
