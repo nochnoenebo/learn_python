@@ -6,6 +6,23 @@ print(a, b)
 m = 8
 n = 8
 
+""" # вывод доски с пронумерованными строкой и столбцом
+for i in range (0, 8):
+    print ('\t',i, end='')
+print()
+for i in range(0, 8):
+    print (i, end='')
+    for j in range(0, 8):
+        print('\t',0, end='')
+    print()
+"""
+""" #непронумерованная доска
+for a in range (0, m):
+     for b in range (0, n):
+         print(0, '\t',end='')
+     print('\t')
+"""
+
 matrix = [[0 for b in range(m)] for a in range(n)]
 matrix[a][b] = 1
 print(matrix)
