@@ -16,16 +16,10 @@ for i in range(0, 8):
         print('\t',0, end='')
     print()
 """
-""" #непронумерованная доска
-for a in range (0, m):
-     for b in range (0, n):
-         print(0, '\t',end='')
-     print('\t')
-"""
-
 matrix = [[0 for b in range(m)] for a in range(n)]
 matrix[a][b] = 1
-print(matrix)
+for i in range(m):
+    print(*matrix[i])
 
 i, j = (int(i) for i in input().split())
 while (i>7 or i<0 or j>7 or j<0) or not ((abs(a - i) == 2 and abs(b - j) == 1) or (abs(a - i) == 1 and abs(b - j) == 2)):
@@ -33,4 +27,5 @@ while (i>7 or i<0 or j>7 or j<0) or not ((abs(a - i) == 2 and abs(b - j) == 1) o
     i, j = (int(i) for i in input().split())
 matrix = [[0 for j in range(m)] for i in range(n)]
 matrix[i][j] = 1
-print(matrix)
+for i in range(m):
+    print(*matrix[i])
